@@ -1209,7 +1209,7 @@ class ActionsSubtotal
 	 * @return int
 	 */
 	function printObjectLine ($parameters, &$object, &$action, $hookmanager){
-		dol_include_once('/subtotal/lib/subtotal.lib.php');
+		dol_include_once('/custom/subtotal/lib/subtotal.lib.php');
 		global $conf,$langs,$user,$db;
 
 		$num = &$parameters['num'];
